@@ -1,11 +1,36 @@
+# Dependencies
 node_modules/
 dist/
 build/
+
+# Storybook
 .storybook-static/
+storybook-static/
+
+# Coverage
 coverage/
-*.min.js
-*.bundle.js
+
+# Public assets
 public/
+
+# Lock files
 package-lock.json
 yarn.lock
-pnpm-lock.yaml 
+pnpm-lock.yaml
+
+# Minified files
+*.min.js
+*.bundle.js
+
+# Generated files
+*.d.ts
+vite-env.d.ts
+vitest.shims.d.ts
+
+# Config files
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+
+# CSS files (let Tailwind handle formatting)
+*.css
