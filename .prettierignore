@@ -34,3 +34,6 @@ postcss.config.js
 
 # CSS files (let Tailwind handle formatting)
 *.css
+
+eslint.config.js
+README.md

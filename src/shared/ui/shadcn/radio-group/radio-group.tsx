@@ -1,5 +1,3 @@
-'use client';
-
 import * as RadioGroupPrimitive from '@radix-ui/react-radio-group';
 import { cn } from '@/shared/lib/tailwind-util';
 import { CircleIcon } from 'lucide-react';
